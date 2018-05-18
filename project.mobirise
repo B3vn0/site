@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page8.html",
+    "currentPage": "page10.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 69,
+    "uniqCompNum": 71,
     "versionPublish": "4.7.2",
     "theme": {
       "name": "mobirise4",
@@ -100,7 +100,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "AJUDA",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -157,7 +157,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "REDE SOCIAIS",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -273,7 +273,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Login",
-        "order": 7
+        "order": 8
       },
       "components": []
     },
@@ -281,7 +281,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Jogo 1",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -310,7 +310,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "JOgo 2",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -339,7 +339,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "jogo 3",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -371,7 +371,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "jogo 4",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -400,7 +400,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "jogo 5",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -429,9 +429,59 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "jogo 6",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "info4",
+          "_customHTML": "<section class=\"mbr-section info4\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"justify-content-center row\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><a href=\"page10.html\" class=\"text-white\">FASE 6:</a></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">Foge!</h3>\n                <p class=\"mbr-text align-right mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-multiline data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-login mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qSpRnz9AZi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "info4-1x"
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "jogo 7",
         "order": 1
       },
-      "components": []
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "info3",
+          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">FASE 7:</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline></p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qSpSe5vXym",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "info3-1y"
+        }
+      ]
     }
   }
 }
