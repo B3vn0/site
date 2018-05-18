@@ -1491,104 +1491,12 @@ body {
   padding-bottom: 120px;
   background-color: #000000;
 }
-.cid-qSl2gpbG5r {
+.cid-qSpGSMyCZm {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #232323;
+  background-color: #000000;
 }
-.cid-qSl2gpbG5r .mbr-section-subtitle {
+.cid-qSpGSMyCZm .mbr-text,
+.cid-qSpGSMyCZm .mbr-section-btn {
   color: #ffffff;
-  text-align: center;
-}
-.cid-qSl2gpbG5r .formoid {
-  margin: auto;
-}
-.cid-qSl2gpbG5r .form-control {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-.cid-qSl2gpbG5r a.btn {
-  flex: 0 0 auto;
-  -webkit-flex: 0 0 auto;
-}
-.cid-qSl2gpbG5r .input-group-btn {
-  align-self: center;
-  -webkit-align-self: center;
-  z-index: 3;
-}
-.cid-qSl2gpbG5r .input-group-btn .btn {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
-.cid-qSl2gpbG5r a:not([href]):not([tabindex]) {
-  color: #fff;
-}
-.cid-qSl2gpbG5r a.btn-white:not([href]):not([tabindex]) {
-  color: #333;
-}
-.cid-qSl2gpbG5r .mbr-subscribe .input-group-btn {
-  display: inline-block;
-}
-.cid-qSl2gpbG5r .mbr-subscribe .input-group-btn button,
-.cid-qSl2gpbG5r .mbr-subscribe .input-group-btn a {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-@media (max-width: 350px) {
-  .cid-qSl2gpbG5r .mbr-subscribe {
-    flex-direction: column;
-    -webkit-flex-direction: column;
-  }
-  .cid-qSl2gpbG5r input[type="email"] {
-    width: 100%;
-    margin-bottom: 2px;
-  }
-  .cid-qSl2gpbG5r .input-group-btn {
-    width: 100%;
-  }
-  .cid-qSl2gpbG5r .input-group-btn .btn {
-    border-radius: 3px;
-  }
-}
-@media (max-width: 768px) {
-  .cid-qSl2gpbG5r .input-group-btn a.btn {
-    width: 100%;
-  }
-  .cid-qSl2gpbG5r .input-group-btn {
-    width: calc(92%);
-  }
-  .cid-qSl2gpbG5r .input-group-btn button[type="submit"] {
-    width: 100%;
-  }
-  .cid-qSl2gpbG5r .input-group {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    max-width: 300px;
-  }
-  .cid-qSl2gpbG5r .input-group input[type="email"] {
-    width: 100%;
-    margin-bottom: 3px;
-  }
-  .cid-qSl2gpbG5r .input-group span {
-    display: inline;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .cid-qSl2gpbG5r .input-group-btn button,
-  .cid-qSl2gpbG5r .input-group-btn a {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-}
-@media (min-width: 769px) {
-  .cid-qSl2gpbG5r .mbr-subscribe > * {
-    margin: 0 0.5rem;
-  }
-}
-.cid-qSl2gpbG5r H2 {
-  color: #46ff00;
 }

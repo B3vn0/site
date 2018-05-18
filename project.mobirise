@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page5.html",
+    "currentPage": "page6.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 62,
+    "uniqCompNum": 65,
     "versionPublish": "4.7.2",
     "theme": {
       "name": "mobirise4",
@@ -100,7 +100,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "AJUDA",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -157,7 +157,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "REDE SOCIAIS",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -273,7 +273,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Login",
-        "order": 4
+        "order": 5
       },
       "components": []
     },
@@ -281,7 +281,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Jogo 1",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -298,11 +298,11 @@
           "_name": "info4",
           "_customHTML": "<section class=\"mbr-section info4\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"justify-content-center row\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">FASE 1:</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <p class=\"mbr-text align-right mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-multiline data-app-selector=\".mbr-text, .mbr-section-btn\">KATGVYQvXnr45PDiXSDuwpGU8RDF6IhWIuoeFUsiV78x8ad7-3kBdIB_ScrkGSuVxPnP5L7-8vJaFrBQa3KJc9E1kx8f6gTb7ndm33w1N6F_BhL_gccTL84iD3iAwWtM2wScI-4-3pj-f4IXyJsLICT2DgJThtafc6Ir0gpWbin8APlU6cRU5zsJrgs3FHCWpIki8PgHZGGf2mymCpK19IqFRyY9N1bN0X-EJsSpXYZwcqNmsfuyxxoyDdA9ZcV_tXjWHeCzs6IBmOGrs45r_gx6t0QDucnTJcPcI-6CsaU&nbsp;</p>\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">. .--. .. -.-. ..- .-. ---</a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">NZAbYeq_VdnPBe_W_sG_L6mjcN7AMdmbaU8vb0trNSk</a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-success mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-close mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">.-. . -. / -.. . ... -.-. .- .-. - . ...</a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-more-horizontal mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">.- .-.. -... . .-. - / -.-. .- -- ..- ...</a> <a class=\"btn btn-white-outline\" href=\"page5.html\">...- . .-. --. .-.. .. --- / ..-. . .-. .-. . .. .-. .-</a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-bookmark mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">pSiWhiUnE-x_qa6gX1XFo27NZmkkAZKv99c1dFYrGok</a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">-. .. . - --.. ... -.-. .... .</a>\n                    <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbrib-play mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qSmRFJJ0PU",
+          "_anchor": "info4-1o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "info4-1o"
+          "_params": {}
         }
       ]
     },
@@ -310,7 +310,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "JOgo 2",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -327,11 +327,11 @@
           "_name": "info4",
           "_customHTML": "<section class=\"mbr-section info4\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"justify-content-center row\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">FASE 2:</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">https://imgur.com/a/baiSktJ</h3>\n                <p class=\"mbr-text align-right mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-multiline data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">=-0=00-0--]´][</a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">--0-0-;0-</a> <a class=\"btn btn-white-outline\" href=\"page6.html\">set set set</a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">-~//~-´]ç]ç]ç~´</a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">https://imgur.com/a/baiSktJ</a>\n                    <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\">~];//´43546</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qSmVnlZdaa",
+          "_anchor": "info4-1p",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "info4-1p"
+          "_params": {}
         }
       ]
     },
@@ -339,7 +339,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "jogo 3",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -352,111 +352,28 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff",
-              "text-align": "center"
-            },
-            ".formoid": {
-              "margin": "auto"
-            },
-            ".form-control": {
-              "padding-left": "1.5rem",
-              "padding-right": "1.5rem"
-            },
-            "a.btn": {
-              "flex": "0 0 auto",
-              "-webkit-flex": "0 0 auto"
-            },
-            ".input-group-btn": {
-              "align-self": "center",
-              "-webkit-align-self": "center",
-              "z-index": "3",
-              ".btn": {
-                "padding-top": "1rem",
-                "padding-bottom": "1rem",
-                "border-top-right-radius": "3px",
-                "border-bottom-right-radius": "3px"
-              }
-            },
-            "a:not([href]):not([tabindex])": {
-              "color": "#fff"
-            },
-            "a.btn-white:not([href]):not([tabindex])": {
-              "color": "#333"
-            },
-            ".mbr-subscribe .input-group-btn": {
-              "display": "inline-block",
-              "button, a": {
-                "margin-top": "0 !important",
-                "margin-bottom": "0 !important"
-              }
-            },
-            "@media (max-width: 350px)": {
-              ".mbr-subscribe": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              "input[type=\"email\"]": {
-                "width": "100%",
-                "margin-bottom": "2px"
-              },
-              ".input-group-btn": {
-                "width": "100%",
-                ".btn": {
-                  "border-radius": "3px"
-                }
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".input-group-btn a.btn": {
-                "width": "100%"
-              },
-              ".input-group-btn": {
-                "width": "calc(100% - 8px)",
-                "& button[type=\"submit\"]": {
-                  "width": "100%"
-                }
-              },
-              ".input-group": {
-                "display": "flex",
-                "flex-direction": "column",
-                "flex-wrap": "wrap",
-                "margin": "auto",
-                "max-width": "300px",
-                "input[type=\"email\"]": {
-                  "width": "100%",
-                  "margin-bottom": "3px"
-                },
-                "span": {
-                  "display": "inline",
-                  "padding-left": "0",
-                  "padding-right": "0"
-                }
-              },
-              ".input-group-btn button, .input-group-btn a": {
-                "margin-left": "0 !important",
-                "margin-right": "0 !important"
-              }
-            },
-            "@media (min-width: 769px)": {
-              ".mbr-subscribe > *": {
-                "margin": "0 0.5rem"
-              }
-            },
-            "H2": {
-              "color": "#46ff00"
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
             }
           },
-          "_name": "form3",
-          "_customHTML": "<section class=\"mbr-section form3\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\">Fase 3:<br><br></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">W9uhAW26VHv1q_qv5_TCjDkDtkjfswbnuN_FIupVzaznIpkjgPzSVCwNnBE4vgZxOonksUkHenQiTUdEv8DhrV_mxRr3WBVAEWpffmhb33QAFYr-PhShszkV8aqeHPJP</h3>\n            </div>\n        </div>\n\n        <div class=\"row py-2 justify-content-center\">\n            <div mbr-form class=\"col-12 col-lg-6  col-md-8 \">\n                <div data-form-alert hidden>Resposta errada</div>\n                <form class=\"mbr-form\" action=\"bruaof@gmail.com\" method=\"post\" name=\"Mobirise Form\">\n                    <div class=\"mbr-subscribe input-group\">\n                        <input class=\"form-control\" type=\"email\" name=\"email\" placeholder=\"...\" data-form-field=\"Email\" required>\n                        <span mbr-buttons mbr-theme-style=\"display-4\" class=\"input-group-btn\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><a href type=\"submit\" class=\"btn btn-primary\"><span class=\"mbri-up mbr-iconfont mbr-iconfont-btn\"></span></a></span>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qSl2gpbG5r",
-          "_anchor": "form3-1d",
+          "_name": "info4",
+          "_customHTML": "<section class=\"mbr-section info4\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"justify-content-center row\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">FASE 3:</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">Ache o diferente:</h3>\n                <p class=\"mbr-text align-right mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-multiline data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"page7.html\" class=\"text-black\">diferente</a></p>\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-white-outline\" href=\"Homeenigmas.html\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qSpGSMyCZm",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "info4-1s"
         }
       ]
+    },
+    "page7.html": {
+      "settings": {
+        "meta_descr": "Web Site Generator Description",
+        "title": "jogo 4",
+        "order": 1
+      },
+      "components": []
     }
   }
 }
